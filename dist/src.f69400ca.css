@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+body {
+}
+
+.header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  margin: 0 auto;
+  padding: 6px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  font-size: 0.8rem;
+}
+.header a {
+  text-decoration: none;
+}
+.header a:hover {
+  text-decoration: underline;
+}
+
+.header-label {
+  margin-left: 30px;
+  margin-right: 0px;
+  color: rgb(31, 31, 31);
+}
+.header-label:first-of-type {
+  margin-left: 15px;
+}
+
+#right-header {
+  margin-left: auto;
+  display: inline-block;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+#right-header a {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#right-header .icon {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: rgb(70, 70, 70);
+}
+
+#right-header .icon:hover {
+  color: black;
+}
+
+#signin {
+  background-color: rgb(85, 130, 233);
+  color: white;
+  height: 35px;
+  width: 80px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 3px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 41px;
+  display: flex;
+  align-items: center;
+  font-size: 0.85rem;
+  border-top: solid 1px rgb(228, 228, 228);
+  background-color: rgb(242, 242, 242);
+}
+
+.footer a {
+  text-decoration: none;
+  color: rgb(31, 31, 31);
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-right {
+  margin-left: auto;
+  display: inline-block;
+}
+.footer div a {
+  margin: 0 15px;
+}
+.footer-left {
+  margin-left: 10px;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-height: 290px;
+  min-height: 92px;
+  height: calc(100% - 560px);
+}
+
+.logo-container img {
+  height: 92px;
+}
+
+.search-field-container {
+  width: auto;
+  max-width: 584px;
+  height: 50px;
+  border-radius: 24px;
+  border: 1px solid #dfe1e5;
+  background-color: white;
+  margin-top: 20px;
+}
+
+.search-field-container:hover {
+  border: 2px solid rgba(200, 200, 200);
+}
+
+
+/*# sourceMappingURL=/src.f69400ca.css.map */
