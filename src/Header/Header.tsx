@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 import type { Component } from "react";
-import { Apps } from "@material-ui/icons";
+import AppsIcon from "@material-ui/icons/Apps";
 
 const Header = () => {
   return (
@@ -20,7 +20,7 @@ const Header = () => {
         <a className="header-label" href="#">
           Images
         </a>
-        <Apps className="icon" />
+        <AppsIcon className="icon" />
         <button id="signin">
           <b>Sign in</b>
         </button>

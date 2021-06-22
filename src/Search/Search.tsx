@@ -6,7 +6,11 @@ const Search = (props) => {
     <>
       <div className="logo-container">
         <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" />
-        <div className="search-field-container"> </div>
+      </div>
+      <div className="search-field-container"> </div>
+      <div className="buttons-container">
+        <button className="search-button">Google Search</button>
+        <button className="search-button">I'm Feeling Lucky</button>
       </div>
     </>
   );

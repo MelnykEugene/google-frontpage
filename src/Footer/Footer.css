@@ -21,6 +21,7 @@
 .footer-right {
   margin-left: auto;
   display: inline-block;
+  margin-right: 10px;
 }
 .footer div a {
   margin: 0 15px;
